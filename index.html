@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>portfolio</title>
+    <title>Kritika's Portfolio</title>
   </head>
   <body>
     <nav>
@@ -23,17 +23,18 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#project">Projects</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <section class="section" id="Home">
+
+    <section class="section" id="home">
       <div class="section__container">
         <div class="content">
           <p class="subtitle">HELLO</p>
           <h1 class="title">
-            I'm <span>Kritika<br />
+            I'm <span>Kritika</span><br />
           </h1>
           <p class="description">
             Exploring web development to build interactive applications that integrate ML models. With a growing foundation in AI/ML, I enjoy learning, experimenting, and applying technology to solve real-world problems. Actively involved in tech communities, sharing knowledge, organizing events, and fostering collaboration. Always eager to grow and contribute to innovative solutions.
@@ -48,71 +49,124 @@
         </div>
       </div>
     </section>
+
     <section class="section" id="about">
+      <div class="about-container">
         <div class="about-col-1">
           <img src="assets/profile.jpeg" alt="About Image" />
         </div>
         <div class="about-col-2">
-            <h2 class="title">About Me</h2>
-            <p class="description">
-              Passionate beginner in AI, ML with a foundational understanding of supervised and unsupervised learning algorithms. Enthusiastic about exploring innovative solutions and eager to deepen knowledge through hands-on projects and mentorship. Driven by curiosity to build impactful systems and contribute to the tech community.
-            </p>
+          <h2 class="title">About Me</h2>
+          <p class="description">
+            Passionate beginner in AI, ML with a foundational understanding of supervised and unsupervised learning algorithms. Enthusiastic about exploring innovative solutions and eager to deepen knowledge through hands-on projects and mentorship. Driven by curiosity to build impactful systems and contribute to the tech community.
+          </p>
+          <p class="description">
+            Currently focusing on developing my skills in machine learning and web development, with a particular interest in creating interactive web applications that leverage AI capabilities. I'm eager to work on challenging projects that push the boundaries of what's possible with technology.
+          </p>
         </div>
-      
-      </section>
-  
-      <section class="section" id="skills">
-        <div class="section__container">
-          <div class="content">
-            <h2 class="title">Skills</h2>
-            <p class="description"><strong>Languages:</strong> Python, C, JavaScript</p>
-            <p class="description"><strong>Database:</strong> SQL</p>
-            <p class="description"><strong>Libraries:</strong> Numpy, Pandas, Matplotlib</p>
-            <p class="description"><strong>Framework:</strong> TensorFlow</p>
-            <p class="description"><strong>Version Control:</strong> Git / GitHub</p>
-            <p class="description"><strong>Operating System:</strong> Linux</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="skills-container">
+        <h2 class="title" style="text-align: center; margin-bottom: 2rem;">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="ri-code-s-slash-line"></i>
+            <h3>Programming</h3>
+            <p>Python, C, JavaScript</p>
+          </div>
+          <div class="skill-card">
+            <i class="ri-database-2-line"></i>
+            <h3>Database</h3>
+            <p>SQL</p>
+          </div>
+          <div class="skill-card">
+            <i class="ri-book-read-line"></i>
+            <h3>Libraries</h3>
+            <p>NumPy, Pandas, Matplotlib</p>
+          </div>
+          <div class="skill-card">
+            <i class="ri-layout-grid-line"></i>
+            <h3>Framework</h3>
+            <p>TensorFlow</p>
+          </div>
+          <div class="skill-card">
+            <i class="ri-git-branch-line"></i>
+            <h3>Version Control</h3>
+            <p>Git / GitHub</p>
+          </div>
+          <div class="skill-card">
+            <i class="ri-terminal-box-line"></i>
+            <h3>Operating System</h3>
+            <p>Linux</p>
           </div>
         </div>
-      </section>
-  
-      <section class="section" id="projects">
-        <div class="section__container">
-          <div class="content">
-            <h2 class="title">Projects</h2>
-            <p class="description">
-              <strong>Customer Churn Prediction:</strong> Developed a model using logistic regression and random forests. Preprocessed data, engineered features, and evaluated model performance with accuracy and recall.
-            </p>
-            <p class="description">
-              <strong>Medical Insurance Cost Prediction:</strong> Built a Linear Regression model to predict insurance costs based on age, BMI, and smoking status. Applied data preprocessing and model evaluation using Pandas, NumPy, and Scikit-learn.
-            </p>
-            <p class="description">
-              <strong>MNIST Digit Classification:</strong> Utilized CNNs for feature extraction and implemented the model in Python using TensorFlow.
-            </p>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="projects-container">
+        <h2 class="title" style="text-align: center; margin-bottom: 2rem;">My Projects</h2>
+        
+        <div class="project-card">
+          <h3>Customer Churn Prediction</h3>
+          <p>Developed a model using logistic regression and random forests. Preprocessed data, engineered features, and evaluated model performance with accuracy and recall.</p>
+          <!-- <div class="project-links">
+            <a href="#" class="project-link"><i class="ri-github-fill"></i> GitHub</a>
+            <a href="#" class="project-link"><i class="ri-external-link-line"></i> Live Demo</a>
+          </div> -->
+        </div>
+
+        <div class="project-card">
+          <h3>Medical Insurance Cost Prediction</h3>
+          <p>Built a Linear Regression model to predict insurance costs based on age, BMI, and smoking status. Applied data preprocessing and model evaluation using Pandas, NumPy, and Scikit-learn.</p>
+          <!-- <div class="project-links">
+            <a href="#" class="project-link"><i class="ri-github-fill"></i> GitHub</a>
+            <a href="#" class="project-link"><i class="ri-external-link-line"></i> Live Demo</a>
+          </div> -->
+        </div>
+
+        <div class="project-card">
+          <h3>MNIST Digit Classification</h3>
+          <p>Utilized CNNs for feature extraction and implemented the model in Python using TensorFlow. </p>
+          <!-- Achieved over 98% accuracy in classifying handwritten digits. -->
+          <!-- <div class="project-links">
+            <a href="#" class="project-link"><i class="ri-github-fill"></i> GitHub</a>
+            <a href="#" class="project-link"><i class="ri-external-link-line"></i> Live Demo</a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="contact-container">
+        <div class="contact-left">
+          <h2>Contact Me</h2>
+          <p><i class="ri-mail-line"></i> kritisubedi011@gmail.com</p>
+          <p><i class="ri-phone-line"></i>+977 9815948878</p>
+          <p><i class="ri-map-pin-line"></i> Kathmandu,Nepal</p>
+          <div class="social-icons">
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
           </div>
         </div>
-      </section>
-  
-      <section id="contact">
-        <div class="contact-container">
-          <div class="contact-left">
-            <h2>Contact Me</h2>
-            <p><i class="ri-mail-line"></i> kritika@example.com</p>
-            <p><i class="ri-phone-line"></i> +123 456 7890</p>
-            <div class="social-icons">
-              <a href="#"><i class="ri-github-line"></i></a>
-              <a href="#"><i class="ri-linkedin-box-line"></i></a>
-              <a href="#"><i class="ri-twitter-line"></i></a>
-            </div>
-          </div>
-          <div class="contact-right">
-            <form>
-              <input type="text" placeholder="Your Name" required />
-              <input type="email" placeholder="Your Email" required />
-              <textarea rows="6" placeholder="Your Message"></textarea>
-              <button type="submit" class="btn2">Send</button>
-            </form>
-          </div>
+        <div class="contact-right">
+          <form action="#" method="POST">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <input type="text" placeholder="Subject" />
+            <textarea rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn2">Send Message</button>
+          </form>
         </div>
-      </section>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Kritika. All rights reserved.</p>
+    </footer>
   </body>
 </html>
